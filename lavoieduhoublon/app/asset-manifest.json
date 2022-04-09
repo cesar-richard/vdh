@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lavoieduhoublon/app/static/css/main.5daf0389.chunk.css",
+    "main.js": "/lavoieduhoublon/app/static/js/main.2d3996bd.chunk.js",
+    "main.js.map": "/lavoieduhoublon/app/static/js/main.2d3996bd.chunk.js.map",
+    "runtime-main.js": "/lavoieduhoublon/app/static/js/runtime-main.513fe8a1.js",
+    "runtime-main.js.map": "/lavoieduhoublon/app/static/js/runtime-main.513fe8a1.js.map",
+    "static/js/2.a3718d08.chunk.js": "/lavoieduhoublon/app/static/js/2.a3718d08.chunk.js",
+    "static/js/2.a3718d08.chunk.js.map": "/lavoieduhoublon/app/static/js/2.a3718d08.chunk.js.map",
+    "index.html": "/lavoieduhoublon/app/index.html",
+    "precache-manifest.a2b84a6f306e746d2002f0ff33e1e073.js": "/lavoieduhoublon/app/precache-manifest.a2b84a6f306e746d2002f0ff33e1e073.js",
+    "service-worker.js": "/lavoieduhoublon/app/service-worker.js",
+    "static/css/main.5daf0389.chunk.css.map": "/lavoieduhoublon/app/static/css/main.5daf0389.chunk.css.map",
+    "static/js/2.a3718d08.chunk.js.LICENSE": "/lavoieduhoublon/app/static/js/2.a3718d08.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.513fe8a1.js",
+    "static/js/2.a3718d08.chunk.js",
+    "static/css/main.5daf0389.chunk.css",
+    "static/js/main.2d3996bd.chunk.js"
+  ]
+}

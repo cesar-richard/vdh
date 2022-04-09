@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+html,
+body {
+  scroll-padding-top: 96px; /* height of sticky header */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: black;
+}
+
+.image-carousel {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  filter: opacity(0.8);
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 45%;
+  bottom: 45%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgb(03, 66, 35);
+  z-index: 1000;
+  border-bottom: 1px solid white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.title-quisommesnous {
+  color: rgb(03, 66, 35);
+}
+
+.text-quisommesnous {
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.button-quisommesnous {
+  text-align: center;
+}
+
+.navbar > * > a {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.image-galerie-container:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  z-index: 100;
+}
+
+.image-partenaire-container:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  z-index: 100;
+}
+.image-partenaire-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 3%;
+  border: 2px solid rgba(187, 187, 187, 0.452);
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer > * > ul {
+  padding: 0;
+  font-size: 2vmin;
+}
+
+p {
+  font-size: 2vmin;
+}
+
+.fa {
+  color: white !important;
+}
+
+.nav-link.active .nav-link:hover {
+  color: #007bff !important;
+}
