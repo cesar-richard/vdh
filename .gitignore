@@ -1,6 +1,5 @@
 node_modules
 vendor/
-assets 
 infoRoute.json
 build
 *.env
