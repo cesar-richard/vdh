@@ -152,14 +152,14 @@ class Galerie extends React.Component {
             </Col>
           </Row>
         </Container>
-        <div className="my-4">
+        {/*<div className="my-4">
           <Button
             variant="success"
             href="https://www.facebook.com/valentine.deschamps.347/media_set?set=a.889647507903825&type=1&l=cb556a68bf"
           >
             Voir plus de photos
           </Button>
-        </div>
+        </div>*/}
       </Bloc>
     );
   }
