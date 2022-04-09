@@ -28,7 +28,7 @@ class NavBarSite extends React.Component {
         </Nav>
 
         <Nav className="ml-auto">
-          <Nav.Link disabled href="./billeterie">
+          <Nav.Link href="https://assos.utc.fr/woolly/ventes">
             <i
               className="fa fa-shopping-cart"
               style={{ paddingRight: "10px" }}
@@ -36,10 +36,10 @@ class NavBarSite extends React.Component {
             Billetterie
           </Nav.Link>
 
-          <Nav.Link href="./login">
+          {/*<Nav.Link href="./login">
             <i className="fa fa-user-circle" style={{ paddingRight: "10px" }} />
             Connexion
-          </Nav.Link>
+          </Nav.Link>*/}
         </Nav>
       </Navbar>
     );

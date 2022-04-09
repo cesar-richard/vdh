@@ -5,3 +5,4 @@ infoRoute.json
 build
 *.env
 config.php
+.idea
