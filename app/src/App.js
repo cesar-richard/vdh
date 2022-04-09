@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 
 import HomePage from "./pages/home";
-import Condition from "./pages/conditionGenerale";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 import Page404 from "./pages/404";
@@ -27,9 +26,6 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/">
               <HomePage />
-            </Route>
-            <Route path="/conditions-generales">
-              <Condition />
             </Route>
             <Route>
               <Page404 />
