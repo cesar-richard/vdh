@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
-import NavBar from "../components/navBar";
-import Footer from "../components/footer";
 
 class Page404 extends React.Component {
   render() {

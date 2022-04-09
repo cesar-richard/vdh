@@ -34,10 +34,10 @@ class Footer extends React.Component {
           <Col>
             <ul>
               <li>
-                <Nav.Link href="./#quisommenous">Accueil</Nav.Link>
+                <Nav.Link href="./#">Accueil</Nav.Link>
               </li>
               <li>
-                <Nav.Link disabled href="./#quisommenous">
+                <Nav.Link href="https://assos.utc.fr/woolly/ventes">
                   Billeterie
                 </Nav.Link>
               </li>
@@ -59,7 +59,7 @@ class Footer extends React.Component {
             <Row className="align center">
               <Col></Col>
               <Col className="">
-                <a href="#">
+                <a href={process.env.PUBLIC_URL + "/#"}>
                   <i className="fa fa-envelope fa-2x"></i>
                 </a>
               </Col>
@@ -74,7 +74,7 @@ class Footer extends React.Component {
         </Row>
         <div>
           <p>
-            © 2020 LA VOIE DU HOUBLON, ALL RIGHTS RESERVED,{" "}
+            © 2022 LA VOIE DU HOUBLON, ALL RIGHTS RESERVED,
             <a
               href={
                 process.env.PUBLIC_URL + "/assets/pdf/mentions-legales-vdh.pdf"
