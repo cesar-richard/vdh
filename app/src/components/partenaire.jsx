@@ -43,6 +43,8 @@ class Partenaire extends React.Component {
                 className="w-100 image-galerie"
               />
             </Col>
+          </Row>
+          <Row className="p-3">
             <Col className="image-partenaire-container bg-white">
               <Image
                 src={process.env.PUBLIC_URL + "/assets/partenaires/pvdc.png"}
@@ -50,11 +52,9 @@ class Partenaire extends React.Component {
                 className="w-100 image-galerie"
               />
             </Col>
-          </Row>
-          {/* <Row className="p-3">
             <Col className="image-galerie-container my-auto">
               <Image
-                src={process.env.PUBLIC_URL + "/assets/partenaires/fsc.png"}
+                src={process.env.PUBLIC_URL + "/assets/partenaires/soge.png"}
                 alt="photo partenaire"
                 className="image-galerie"
                 thumbnail
@@ -62,7 +62,7 @@ class Partenaire extends React.Component {
             </Col>
             <Col className="image-galerie-container my-auto">
               <Image
-                src={process.env.PUBLIC_URL + "/assets/partenaires/ssp.png"}
+                src={process.env.PUBLIC_URL + "/assets/partenaires/decathlon.png"}
                 alt="photo partenaire"
                 className="image-galerie"
                 thumbnail
@@ -70,75 +70,13 @@ class Partenaire extends React.Component {
             </Col>
             <Col className="image-galerie-container my-auto">
               <Image
-                src={process.env.PUBLIC_URL + "/assets/partenaires/larsen.png"}
-                alt="photo partenaire"
-                className="image-galerie"
-                thumbnail
-              />
-            </Col>
-            <Col className="image-galerie-container my-auto">
-              <Image
-                src={process.env.PUBLIC_URL + "/assets/partenaires/cet.png"}
-                alt="photo partenaire"
-                className="image-galerie"
-                thumbnail
-              />
-            </Col>
-            <Col className="image-galerie-container my-auto">
-              <Image
-                src={process.env.PUBLIC_URL + "/assets/partenaires/arc.png"}
+                src={process.env.PUBLIC_URL + "/assets/partenaires/armancourt.png"}
                 alt="photo partenaire"
                 className="image-galerie"
                 thumbnail
               />
             </Col>
           </Row>
-          <Row className="p-3">
-            <Col className="image-galerie-container my-auto">
-              <Image
-                src={process.env.PUBLIC_URL + "/assets/partenaires/cauette.png"}
-                alt="photo partenaire"
-                className="image-galerie"
-                thumbnail
-              />
-            </Col>
-            <Col className="image-galerie-container my-auto">
-              <Image
-                src={
-                  process.env.PUBLIC_URL + "/assets/partenaires/decibels.png"
-                }
-                alt="photo partenaire"
-                className="image-galerie"
-                thumbnail
-              />
-            </Col>
-            <Col className="image-galerie-container my-auto">
-              <Image
-                src={process.env.PUBLIC_URL + "/assets/partenaires/ariane.png"}
-                alt="photo partenaire"
-                className="image-galerie"
-                thumbnail
-              />
-            </Col>
-            <Col className="image-galerie-container my-auto">
-              <Image
-                src={
-                  process.env.PUBLIC_URL + "/assets/partenaires/secourut.png"
-                }
-                alt="photo partenaire"
-                className="image-galerie"
-                thumbnail
-              />
-            </Col>
-            <Col className="image-galerie-container my-auto">
-              <Image
-                src={process.env.PUBLIC_URL + "/assets/partenaires/soge.jpg"}
-                alt="photo partenaire"
-                className="image-galerie"
-                thumbnail
-              />
-            </Col>
-          </Row> */}
         </Container>
       </Bloc>
     );

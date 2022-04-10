@@ -1,6 +1,6 @@
 import React from "react";
 import Bloc from "./bloc";
-import { Row, Col, Button, Container, Image } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 
 class MaisPasQue extends React.Component {
   render() {
@@ -24,13 +24,13 @@ class MaisPasQue extends React.Component {
                 className="w-100 h"
                 src={process.env.PUBLIC_URL + "/assets/background/benevole.jpg"}
                 alt="coureur"
-              ></img>
+              />
             </Col>
             <Col className="mt-auto mb-auto px-4 text-quisommesnous">
               <div className="text-center align-center">
                 <Image
-                  src={process.env.PUBLIC_URL + "/assets/logo/fileAriane.jpg"}
-                  alt="photo coureur"
+                  src={process.env.PUBLIC_URL + "/assets/partenaires/ariane.jpg"}
+                  alt="Fil d'ariane"
                   className="text-center"
                   thumbnail
                 />

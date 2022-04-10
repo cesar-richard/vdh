@@ -10,7 +10,7 @@ class QuiSommeNous extends React.Component {
           {/* <i className="fa fa-wheelchair-alt fa-5x" /> */}
           <img
             className="w-25 h-25"
-            src={process.env.PUBLIC_URL + "/assets/logo/logo2.png"}
+            src={process.env.PUBLIC_URL + "/assets/logo/logo_horizontal.png"}
             alt="logo vdh"
           />
           <h2>
@@ -64,17 +64,10 @@ class QuiSommeNous extends React.Component {
                 <iframe
                   title="video"
                   src="https://www.youtube-nocookie.com/embed/-wHaHFHf1aA"
-                  frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
                   className="w-100 h-100 embed-responsive-item"
                 />
               </div>
-              {/* <img
-                className="w-100"
-                src={process.env.PUBLIC_URL + "/assets/galerie/11.jpg"}
-                alt="coureur"
-              ></img> */}
             </Col>
           </Row>
         </Container>

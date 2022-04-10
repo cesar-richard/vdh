@@ -57,18 +57,18 @@ class Footer extends React.Component {
           </Col>
           <Col>
             <Row className="align center">
-              <Col></Col>
+              <Col/>
               <Col className="">
-                <a href={process.env.PUBLIC_URL + "/#"}>
-                  <i className="fa fa-envelope fa-2x"></i>
+                <a href="mailto:lavoieduhoublon@assos.utc.fr">
+                  <i className="fa fa-envelope fa-2x"/>
                 </a>
               </Col>
               <Col className="mr-auto">
                 <a href="https://www.facebook.com/Voie-Du-Houblon-961462067220969/">
-                  <i className="fa fa-facebook fa-2x"></i>
+                  <i className="fa fa-facebook fa-2x"/>
                 </a>
               </Col>
-              <Col></Col>
+              <Col/>
             </Row>
           </Col>
         </Row>
@@ -82,9 +82,6 @@ class Footer extends React.Component {
             >
               Mentions legales
             </a>
-            {/* <a href={process.env.PUBLIC_URL + "/assets/pdf/CGV.pdf"}>
-              CONDITIONS GÉNÉRALES D'UTILISATION
-            </a> */}
           </p>
         </div>
       </Container>
