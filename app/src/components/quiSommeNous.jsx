@@ -35,11 +35,9 @@ const QuiSommeNous = () => (
             de 10km.
             Elle reliait anciennement les villes de Compiègne et Saint-Sauveur (à La Cauette à Bières)
             mais relie les villes de
-            <strong> Compiègne et d’Armancourt </strong>
-            .
+            <strong> Compiègne et d’Armancourt.</strong>
             Elle se déroulera cette année le
-            <strong> samedi 14 mai 2022 </strong>
-            .
+            <strong> samedi 14 mai 2022.</strong>
           </p>
           <p>
             Il est tout à fait possible de parcourir les 10 km en courant, en marchant, mais aussi en rollers,
