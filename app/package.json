@@ -16,7 +16,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp ./build/index.html ../lavoieduhoublon/index.php && rm -R  ../lavoieduhoublon/app/* && cp -R ./build/* ../lavoieduhoublon/app",
+    "build_deploy": "PUBLIC_URL=https://assos.utc.fr/lavoieduhoublon/p22 react-scripts build && rsync -azh ./build/* root@phoenix.mde.utc:/sites/lavoieduhoublon/p22/ && ssh root@files.mde.utc chown lavoieduhoublon:www-data -R /sites/lavoieduhoublon/",
+    "build": "react-scripts build",
+    "lint": "eslint . --ext .js,.jsx",
+    "lint-fix": "eslint . --ext .js,.jsx --fix",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,8 +38,11 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "/lavoieduhoublon/app",
+  "homepage": "/",
   "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-react": "^7.29.4",
     "react-scripts": "^5.0.0"
   }
 }
