@@ -30,27 +30,24 @@ const QuiSommeNous = () => (
         <Col className="mt-auto mb-auto p-4 text-quisommesnous">
           <p>
             La voie du houblon est une
-            <strong>course caritative et festive</strong>
+            <strong> course caritative et festive </strong>
             ouverte à tous d'une longueur
             de 10km.
             Elle reliait anciennement les villes de Compiègne et Saint-Sauveur (à La Cauette à Bières)
             mais relie les villes de
-            <strong>Compiègne et d’Armancourt</strong>
+            <strong> Compiègne et d’Armancourt </strong>
             .
             Elle se déroulera cette année le
-            <strong>samedi 14 mai 2022</strong>
+            <strong> samedi 14 mai 2022 </strong>
             .
           </p>
           <p>
             Il est tout à fait possible de parcourir les 10 km en courant, en marchant, mais aussi en rollers,
             en trottinette, en skateboard et même en caddie pour les plus téméraires d'entre vous.
             Le parcours sera ponctué de 4 stands sur lesquels seront proposées des
-            <strong>
-              dégustations de bières.
-              Des softs, de l'eau et de la nourriture
-            </strong>
+            <strong> dégustations de bières. Des softs, de l'eau et de la nourriture </strong>
             seront aussi mis à la disposition des participants.
-            <strong>De nombreuses animations ainsi que des défis</strong>
+            <strong> De nombreuses animations ainsi que des défis </strong>
             seront mis en place sur la totalité du
             parcours.
             L'objectif est de proposer un circuit mêlant course et randonnée, sport et détente,
