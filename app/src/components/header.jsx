@@ -18,7 +18,7 @@ const Header = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h2>Une course de 15 km</h2>
+            <h2>Une course de 10 km</h2>
             <p>à faire en marchant comme en courant</p>
           </Carousel.Caption>
         </Carousel.Item>
