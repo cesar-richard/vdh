@@ -26,7 +26,7 @@ const NavBarSite = () => (
     </Nav>
 
     <Nav className="ml-auto">
-      <Nav.Link href="https://assos.utc.fr/woolly/ventes">
+      <Nav.Link href="https://assos.utc.fr/woolly/ventes/102">
         <i
           className="fa fa-shopping-cart"
           style={{ paddingRight: '10px' }}
