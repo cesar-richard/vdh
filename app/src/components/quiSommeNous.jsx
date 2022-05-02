@@ -15,7 +15,7 @@ const QuiSommeNous = () => (
       <h2>
         <strong>
           QU'EST CE QUE
-          <span className="title-quisommesnous">LA VOIE DU HOUBLON </span>
+          <span className="title-quisommesnous"> LA VOIE DU HOUBLON </span>
           ?
         </strong>
       </h2>
